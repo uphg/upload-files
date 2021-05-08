@@ -30,7 +30,7 @@ file.addEventListener('input', (event) => {
 
 submit.addEventListener('click', () => {
   const request = new XMLHttpRequest();   //创建对象
-  request.open('POST', 'http://10.70.65.235:8100/', true);
+  request.open('POST', 'http://xxx.xxx.xxx:8088/', true);
 
   request.onreadystatechange = function () {
     console.log('state change', request.readyState);
